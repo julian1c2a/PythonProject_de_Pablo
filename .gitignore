@@ -22,7 +22,6 @@ DataDigger/DataDigger-*.ini
 DataDigger/DataDigger*.log
 /old/
 /debug/
-.gitignore
 *.tmp
 *.bak
 *.bck
@@ -111,7 +110,6 @@ out
 [Rr]elease*/
 *.mode*
 *.app/
-*.pyc
 .svn/
 *.pbxuser
 *.perspective
@@ -306,10 +304,7 @@ phpunit.phar
 /backend/web/index-test.php
 /backend/web/robots.txt
 __pycache__/
-*.py[cod]
-*$py.class
 *.so
-.Python
 build/
 develop-eggs/
 dist/
@@ -338,7 +333,7 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
-*.py,cover
+cover
 .hypothesis/
 .pytest_cache/
 cover/
@@ -1959,7 +1954,6 @@ Manifest.toml
 preferences.arc
 sam.json
 sam.yaml
-local_settings.py
 db.sqlite3
 db.sqlite3-journal
 media
@@ -2097,7 +2091,6 @@ EWARM/settings
 **/IntegrationServer/WmRepository4/
 **/IntegrationServer/XAStore/
 **/IntegrationServer/packages/Wm*/
-*.py[co]
 devdata.db
 data/*
 *.egg-info
@@ -2316,7 +2309,6 @@ build_isolated/
 devel_isolated/
 *.cfgc
 /cfg/cpp/
-/cfg/*.py
 /planning/cfg
 /planning/docs
 /planning/src
@@ -2652,7 +2644,6 @@ lib/generated_plugin_registrant.dart
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 profile_default/
-ipython_config.py
 *.s#?
 *.b#?
 *.l#?
@@ -3678,7 +3669,6 @@ acs-*.bib
 *.slt[0-9]*
 *.stc[0-9]*
 _minted*
-*.pyg
 *.mw
 *.newpax
 *.nlg
@@ -3687,7 +3677,6 @@ _minted*
 *.pax
 *.pdfpc
 *.sagetex.sage
-*.sagetex.py
 *.sagetex.scmd
 *.wrt
 svg-inkscape/
@@ -4641,7 +4630,6 @@ docs/_build/
 .pdm.toml
 celerybeat-schedule
 celerybeat.pid
-*.sage.py
 env/
 venv/
 ENV/
