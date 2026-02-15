@@ -57,3 +57,7 @@
 - Clase_2.py: documentacion de la clase y funcion `ejecutar_juego_adivinanza()`
 - juego_numero_secreto.py: logica del juego, historial y estadisticas
 - main.py: punto de entrada que delega a Clase_2
+
+## Proxima clase
+
+- Comenzamos con variables
